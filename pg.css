@@ -1,0 +1,169 @@
+p {
+	font-size: 25px;
+	font-family: home;
+
+	line-height: 2;
+	color: cornsilk;
+}
+
+.list ul li {
+	padding: 30px;
+}
+
+html {
+	background-color: black;
+	width: 1858px;
+}
+
+h1,
+li,
+h4,
+h2 {
+	color: cornsilk;
+}
+
+.list-ths {
+	border: 5px solid darkred;
+	border-radius: 15px;
+	background-color: rgb(210, 105, 30, 0.2);
+	width: 90%;
+}
+
+.list {
+	border: 5px solid darkred;
+	border-radius: 15px;
+	background-color: rgb(210, 105, 30, 0.2);
+	width: 50%;
+
+	padding: 20px;
+}
+
+.ul-ths {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 25px;
+	margin: auto;
+}
+
+@font-face {
+	font-family: "home";
+	src: url(home.ttf);
+}
+
+body {
+	background-color: rgb(75, 0, 130, 0.3);
+	border: 2px solid rgb(230, 230, 250, 8);
+}
+
+.column-two {
+	padding: 30px 45px 10px 45px;
+	background-color: rgb(75, 0, 130, 0.3);
+	/* border: 2px solid rgb(230, 230, 250, 8); */
+	border-radius: 10px;
+}
+
+.container {
+	font-family: home;
+}
+
+.list nav {
+	font-size: 17px;
+	text-decoration: none !important;
+	padding: 25px;
+	text-align: center;
+}
+
+.list nav a {
+	border: 1px solid darkred;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgb(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: cornsilk;
+	text-decoration: none;
+}
+
+.list-ths a:hover {
+	text-decoration: underline;
+	color: darkred;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+.list-ths {
+	line-height: 2.7;
+	font-size: 25px;
+	padding: 15px;
+}
+
+footer ul a:active {
+	text-decoration: underline;
+	color: darkred;
+}
+
+footer ul a:hover {
+	text-decoration: underline;
+	color: darkred;
+}
+
+footer ul a {
+	color: cornsilk;
+	text-decoration: none;
+}
+
+footer ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+
+footer ul li {
+	padding: 20px;
+	border: 1px solid darkred;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgb(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: cornsilk;
+	justify-content: space-between;
+}
+
+footer {
+	background-color: rgb(75, 0, 130, 0.3);
+	border: 2px solid rgb(230, 230, 250, 8);
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin: 1px;
+}
+
+.list-ths a {
+	color: cornsilk;
+	text-decoration: none;
+	border: 1px solid darkred;
+	background-color: rgb(0, 0, 0, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.ntn-container {
+	display: flex;
+	color: cornsilk;
+	font-size: 30px;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.ntn img {
+	padding: 5px;
+	border-radius: 100px;
+	/* border: 5px double black; */
+	border: 10px double cornsilk;
+	margin-top: 15px;
+}

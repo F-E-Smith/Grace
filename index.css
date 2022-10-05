@@ -1,0 +1,148 @@
+.header {
+	font-size: 30px;
+	font-family: home;
+	font-weight: 700;
+	font-style: normal;
+	/* border: 3px solid darkred; */
+	/* box-shadow: 1px 1px 1px 1px darkred; */
+	border-radius: 15px;
+	/* margin-left: 20px;
+	margin-right: 50px;
+	
+	 margin-bottom: 10px; */
+	margin: auto;
+	text-align: center;
+	color: cornsilk;
+	width: 90%;
+	margin-top: 30px;
+}
+
+.name-photo img {
+	border-radius: 15px;
+	border: 5px solid darkred;
+}
+
+.list {
+	text-decoration: none;
+}
+
+button {
+	all: unset;
+}
+
+.list {
+	display: block;
+	text-align: center;
+}
+
+.list nav {
+	padding: 10px;
+	font-family: cursive;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: darkred;
+}
+
+a:active {
+	text-decoration: underline;
+}
+a {
+	color: cornsilk;
+}
+html {
+	background-color: black;
+	width: 1858px;
+}
+
+.title-of-page {
+	display: flex;
+}
+
+.size-change {
+	font-size: 50px;
+}
+
+body {
+	border: 5px solid darkred;
+	padding: 50px 0px 100px;
+	background-color: rgb(255, 248, 220, 0.2);
+	margin: 50px;
+}
+
+.size-change h4 {
+	margin-bottom: 30px;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+.photo {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.photo img {
+	border-radius: 15px;
+}
+
+@font-face {
+	font-family: "home";
+	src: url(home.ttf);
+}
+
+.list nav {
+	font-family: home;
+}
+
+.list {
+	padding-top: 20px;
+}
+
+.photo img {
+	padding-top: 0px;
+}
+
+.list {
+	border: 5px solid darkred;
+	border-radius: 15px;
+	background-color: rgb(210, 105, 30, 0.2);
+	width: 37%;
+}
+
+.name-photo {
+	border: 5px solid darkred;
+	border-radius: 15px;
+	background-color: rgb(210, 105, 30, 0.2);
+}
+
+.list nav a {
+	border: 1px solid darkred;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgb(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.list nav {
+	padding: 25px;
+}
+
+h4 {
+	margin-top: auto;
+}
+
+.list-nav {
+	display: flex;
+}
